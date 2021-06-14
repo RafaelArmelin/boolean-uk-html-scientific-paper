@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+     margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    height: 100px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color:rgb(53, 123, 166);
+    color: white;
+}
+.logo{
+    font-size: 20px;
+    padding: 8px 10px 8px 0;
+    font-weight: bold;
+}
+.item{
+    padding: 8px;
+}
+main{
+    padding: 40px 20px 80px 40px;
+}
+h1{
+    color:rgb(53, 123, 166) ;
+}
+.discount{
+    color: rgb(53, 123, 166);
+}
+.button{
+    border-radius: 5px;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.button-membership{
+    border: 2px solid orange;
+    color: orange;
+    font-weight: normal;
+}
+.light-shadow{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.button-instagram{
+color: white;
+background-color: purple;
+margin-right: 20px;
+}
+.button-facebook{
+color: white;
+background-color: blue;
+margin: 20px;
+
+}
+.button-youtube{
+color: white;
+background-color: red;
+margin: 20px;
+
+}
+footer{
+    background-color: rgb(53, 123, 166);
+    color: white;
+}
